@@ -1,0 +1,19 @@
+{
+  "name": "youtube-ai-tools-api",
+  "version": "1.0.0",
+  "description": "API for fetching short YouTube videos about new AI tools from channels with at least 1,000 subscribers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
